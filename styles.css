@@ -1,0 +1,139 @@
+h1 {
+	font-size: 300%;
+	text-align: center;
+	color: white;
+	font-family: trebuchet ms;
+	}
+	
+h2 {
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	font-family: trebuchet ms;
+	}
+	
+h3 {
+	font-size: 150%;
+	text-align: center;
+	color: white;
+	font-family: trebuchet ms;
+	}
+	
+p {
+	font-size: 150%;
+	text-align: center;
+	color: white;
+	font-family: trebuchet ms;
+	}
+	
+li {
+	font-size: 125%;
+	text-align: center;
+	color: white;
+	font-family: trebuchet ms;
+	margin-left: -25px;
+	}
+	
+footer {
+	color: white;
+	font-family: trebuchet ms;
+	}
+	
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	justify-content: center;
+	}
+	
+ol {
+	list-style-type: none;
+	display: table;
+	text-align: center;
+	}
+	
+.ulone {
+	list-style-type: none;
+	display: table;
+	margin-left: 33%;
+	}
+	
+.ultwo {
+	list-style-type: none;
+	display: table;
+	margin-left: 38%;
+	}
+	
+.fixed {
+	position: relative;
+	bottom: 5;
+	right: 5;
+	width: 200px;
+	background-color: #707070;
+	font-family: trebuchet ms;
+	}	
+	
+.div {
+	text-align: center;
+	}
+	
+.box {
+	color: white;
+	font-family: trebuchet ms;
+	}
+	
+	
+a.button {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #FFFFFF;
+	margin: 0 4px 4px 0;
+	border-radius: 1px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: trebuchet ms;
+	font-weight: 300;
+	text-align: center;
+	transition: all .2s;
+	}
+a.button:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+	}
+@media all and (max-width:480px){
+a.button {
+	display: block;
+	margin: 6px auto;
+	}
+	}
+	
+a:link {
+	color: white;
+	}
+a:visited {
+	color: white;
+	}
+a:hover {
+	color: red;
+	}
+a:active {
+	color: yellow;
+	}
+
+body {
+	-webkit-animation: colorchange 25s infinite; 
+    animation: colorchange 25s infinite;
+	}
+@-webkit-keyframes colorchange {
+     0%  {background: #74c9f7;}
+    25%  {background: #23ffb2;}
+    50%  {background: #3246fc;}
+    75%  {background: #a22cf7;}
+    100% {background: #74c9f7;}
+	}
+@keyframes colorchange {
+     0%  {background: #74c9f7;}
+    25%  {background: #23ffb2;}
+    50%  {background: #3246fc;}
+    75%  {background: #a22cf7;}
+    100% {background: #74c9f7;}
+	}
